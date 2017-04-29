@@ -14,6 +14,10 @@
 		901EEB3D1EB4623800EC16D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901EEB3B1EB4623800EC16D5 /* LaunchScreen.storyboard */; };
 		901EEB481EB4623900EC16D5 /* CollectionViewFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EEB471EB4623900EC16D5 /* CollectionViewFlowTests.swift */; };
 		901EEB531EB4623900EC16D5 /* CollectionViewFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EEB521EB4623900EC16D5 /* CollectionViewFlowUITests.swift */; };
+		901EEB611EB463EA00EC16D5 /* GalleryItemCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EEB601EB463EA00EC16D5 /* GalleryItemCommentView.swift */; };
+		901EEB631EB4646E00EC16D5 /* GalleryItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EEB621EB4646E00EC16D5 /* GalleryItemCollectionViewCell.swift */; };
+		901EEB651EB464DE00EC16D5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EEB641EB464DE00EC16D5 /* File.swift */; };
+		901EEB671EB4660600EC16D5 /* items.plist in Resources */ = {isa = PBXBuildFile; fileRef = 901EEB661EB4660600EC16D5 /* items.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		901EEB4E1EB4623900EC16D5 /* CollectionViewFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		901EEB521EB4623900EC16D5 /* CollectionViewFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewFlowUITests.swift; sourceTree = "<group>"; };
 		901EEB541EB4623900EC16D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901EEB601EB463EA00EC16D5 /* GalleryItemCommentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCommentView.swift; sourceTree = "<group>"; };
+		901EEB621EB4646E00EC16D5 /* GalleryItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		901EEB641EB464DE00EC16D5 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		901EEB661EB4660600EC16D5 /* items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = items.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,13 @@
 		901EEB311EB4623700EC16D5 /* CollectionViewFlow */ = {
 			isa = PBXGroup;
 			children = (
+				901EEB661EB4660600EC16D5 /* items.plist */,
 				901EEB321EB4623800EC16D5 /* AppDelegate.swift */,
 				901EEB341EB4623800EC16D5 /* ViewController.swift */,
 				901EEB361EB4623800EC16D5 /* Main.storyboard */,
+				901EEB601EB463EA00EC16D5 /* GalleryItemCommentView.swift */,
+				901EEB621EB4646E00EC16D5 /* GalleryItemCollectionViewCell.swift */,
+				901EEB641EB464DE00EC16D5 /* File.swift */,
 				901EEB391EB4623800EC16D5 /* Assets.xcassets */,
 				901EEB3B1EB4623800EC16D5 /* LaunchScreen.storyboard */,
 				901EEB3E1EB4623800EC16D5 /* Info.plist */,
@@ -235,6 +247,7 @@
 				901EEB3D1EB4623800EC16D5 /* LaunchScreen.storyboard in Resources */,
 				901EEB3A1EB4623800EC16D5 /* Assets.xcassets in Resources */,
 				901EEB381EB4623800EC16D5 /* Main.storyboard in Resources */,
+				901EEB671EB4660600EC16D5 /* items.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901EEB651EB464DE00EC16D5 /* File.swift in Sources */,
+				901EEB631EB4646E00EC16D5 /* GalleryItemCollectionViewCell.swift in Sources */,
 				901EEB351EB4623800EC16D5 /* ViewController.swift in Sources */,
 				901EEB331EB4623800EC16D5 /* AppDelegate.swift in Sources */,
+				901EEB611EB463EA00EC16D5 /* GalleryItemCommentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +523,7 @@
 				901EEB591EB4623900EC16D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		901EEB5A1EB4623900EC16D5 /* Build configuration list for PBXNativeTarget "CollectionViewFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +532,7 @@
 				901EEB5C1EB4623900EC16D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		901EEB5D1EB4623900EC16D5 /* Build configuration list for PBXNativeTarget "CollectionViewFlowUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +541,7 @@
 				901EEB5F1EB4623900EC16D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
